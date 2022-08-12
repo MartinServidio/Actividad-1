@@ -28,30 +28,33 @@ Partial Class Form2
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(63, 185)
+        Me.Button2.Location = New System.Drawing.Point(94, 285)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(141, 57)
+        Me.Button2.Size = New System.Drawing.Size(212, 88)
         Me.Button2.TabIndex = 3
         Me.Button2.Text = "Cerrar Programa"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(63, 54)
+        Me.Button1.Location = New System.Drawing.Point(94, 83)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(141, 55)
+        Me.Button1.Size = New System.Drawing.Size(212, 85)
         Me.Button1.TabIndex = 2
         Me.Button1.Text = "Cerrar Formulario"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Form2
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(261, 319)
+        Me.ClientSize = New System.Drawing.Size(392, 491)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Location = New System.Drawing.Point(900, 300)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "Form2"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.Manual
         Me.Text = "Formulario2"

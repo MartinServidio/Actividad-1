@@ -9,6 +9,13 @@
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.Show()
-        Form2.Show()
+        Dim parar As Integer
+
+        Do While parar < 1000000
+            Me.Label1.Text = parar.ToString()
+            parar = parar + 1
+            Form2.Show()
+            Form2.Refresh()
+        Loop
     End Sub
 End Class
